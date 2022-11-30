@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>If | Else</title>
+</head>
+<body>
+	<div>
+        <ul>
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+        </ul>
+    </div>
+    <script>
+    // var string1 = "This is a string";
+    // string1 = "This is a string2";
+    // console.log(string1);
+    // let a = "u";
+    // {
+    // let a = "u6";
+    // console.log(a)
+    // }
+    // console.log(a)
+    // const a = "This cannot be changed";
+    // a = "I want to change this. This cannot be changed";
+
+    let age = 16;
+    if (age>18){
+    	console.log(`You Can't Drive a car !`);
+    }
+
+    else if(age==18){
+    	console.log(`we will think about u`);
+    }
+
+    else{
+    	console.log(`You Can Drive a car.`);
+    }
+
+    const cups = 22;
+    switch(cups) {
+    	case 2:
+    		console.log(`You should at list drink ` +cups+` Cups`)
+    		break;
+    	case 4:
+    		console.log(`You can drink ` +cups+` Cups`)
+    		break;
+    	case 6:
+    		console.log(`You may drink ` +cups+` Cups`)
+    		break;
+    	case 8:
+    		console.log(`You Can't drink ` +cups+` Cups`)
+    		break;
+    	default:
+    		console.log(`You Can't drink any more Cups`)
+    		break;
+    }
+    </script>
+</body>
+</html>

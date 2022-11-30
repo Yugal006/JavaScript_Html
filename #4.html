@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Str | Func</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var str = "This is a String";
+		console.log(str)
+		// First occurence of substring
+		var position = str.indexOf('is');
+		console.log(position)
+
+		// Last occurence of substring
+		position = str.lastIndexOf('is');
+		console.log(position)
+
+		//Substring from a string
+		// var substr = str.slice(5,7);
+		// var substr = str.substring(5,7);
+		var substr1 = str.substr(5,11); // Here in (x,y)/x is starting char. and y is length 
+		console.log(substr1)
+
+		// Replaced func.
+		var replaced = str.replace('String', 'Yugal');
+		console.log(replaced.toLowerCase())
+		console.log(str.toUpperCase())
+
+		//New Str.
+
+		var NewStr =str.concat(` 'New String'`);
+		console.log(NewStr)
+
+		var str_withSpaces = "    this        is NewStr               ";
+		console.log(str_withSpaces)
+		console.log(str_withSpaces.trim())
+
+		var char1 = str.charAt(5);
+		var char2 = str.charCodeAt(5);
+		console.log(char1, char2)
+
+		console.log(str[10])
+	</script>
+</body>
+</html>

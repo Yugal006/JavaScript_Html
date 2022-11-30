@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alert, Prompt and Confirm</title>
+</head>
+<body>
+	<div class="container">
+		Pariatur nostrud aliqua enim dolore ut culpa consequat elit esse ea minim.
+	</div>
+	<script type="text/javascript">
+
+        // Alert in in-browser JavaScript - Does not return anything
+        // alert("This is a message"); 
+
+        // Prompt in JS
+        // let name = prompt("What is your name?", "Guest");
+        // console.log(name);
+
+        // Confirm in JS
+        let deletePost = confirm("Do you really want to delete this post?");
+        
+        // console.log(deletePost);
+        if(deletePost){
+            // Code to delete the post
+            console.log("Your post has been deleted successfully");
+        }
+        else{
+            // Code to cancel deletion of the post
+            console.log("Your post has not been deleted");
+        }
+
+	</script>
+</body>
+</html>
