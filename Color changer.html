@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Color</title>
+		<script type="text/javascript">
+			function Red() {
+				document.body.style.backgroundColor="Red";
+			}
+			function Yellow() {
+				document.body.style.backgroundColor="Yellow";
+			}
+			function Green() {
+				document.body.style.backgroundColor="Green";
+			}
+			function Orange() {
+				document.body.style.backgroundColor="orange";
+			}
+			function violet() {
+				document.body.style.backgroundColor="darkviolet";
+			}
+			function White() {
+				document.body.style.backgroundColor="White";
+			}
+		</script>
+	</head>
+	<body>
+		<style type="text/css">
+			td{
+				margin: 0px;
+				padding: 10px;
+			}
+			form{
+				margin: 0px;
+				padding: 0px;
+			}
+			#btn_r{
+				background: red;
+				height: 45px;
+				width: 80px;
+				border-radius: 10px;
+				border: solid 2px #04d9ff;
+			}
+			#btn_y{
+				background: yellow;
+				height: 45px;
+				width: 80px;
+				border-radius: 10px;
+				border: solid 2px #04d9ff;
+			}
+			#btn_g{
+				background: green;
+				height: 45px;
+				width: 80px;
+				border-radius: 10px;
+				border: solid 2px #04d9ff;
+			}
+			#btn_o{
+				background: orange;
+				height: 45px;
+				width: 80px;
+				border-radius: 10px;
+				border: solid 2px #04d9ff;
+			}
+			#btn_v{
+				background: darkviolet;
+				height: 45px;
+				width: 80px;
+				border-radius: 10px;
+				border: solid 2px #04d9ff;
+			}
+			#btn_w{
+				background: white;
+				height: 45px;
+				width: 80px;
+				border-radius: 10px;
+				border: solid 2px #04d9ff;
+			}
+		</style>
+		<div align="center"	id='container' style="margin: 30vh 0px 0px 0px;">
+			<table border="5px" bordercolor="#04d9ff">
+				<tr>
+					<td>
+						<form name="form1">
+							<input type="button" id="btn_r" onclick="Red()">
+						</form>
+					</td>
+					<td>
+						<form name="form1">
+							<input type="button" id="btn_y" onclick="Yellow()">
+						</form>
+					</td>
+					<td>
+						<form name="form1">
+							<input type="button" id="btn_g" onclick="Green()">
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<form name="form1">
+							<input type="button" id="btn_o" onclick="Orange()">
+						</form>
+					</td>
+					<td>
+						<form name="form1">
+							<input type="button" id="btn_v" onclick="violet()">
+						</form>
+					</td>
+					<td>
+						<form name="form1">
+							<input type="button" id="btn_w" onclick="White()">
+						</form>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		
+	</body>
+</html>
